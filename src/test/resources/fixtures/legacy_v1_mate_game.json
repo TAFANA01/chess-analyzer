@@ -1,0 +1,731 @@
+{
+  "id" : "game_2026_10_01_001",
+  "analyzedAt" : "2026-10-01T12:07:08.9067175",
+  "game" : {
+    "white" : "BA-STOP",
+    "black" : "pascoal_dias",
+    "result" : "1-0",
+    "date" : "2026.09.28",
+    "event" : "Live Chess",
+    "site" : "Chess.com",
+    "round" : "?",
+    "eco" : "B15",
+    "opening" : "",
+    "timeControl" : "180",
+    "rawPgn" : "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2026.09.28\"]\n[Round \"?\"]\n[White \"BA-STOP\"]\n[Black \"pascoal_dias\"]\n[Result \"1-0\"]\n[TimeControl \"180\"]\n[WhiteElo \"1160\"]\n[BlackElo \"1128\"]\n[Termination \"BA-STOP won by checkmate\"]\n[ECO \"B15\"]\n[EndTime \"20:29:02 GMT+0000\"]\n[Link \"https://www.chess.com/game/live/184522218972?username=ba-stop\"]\n\n1. e4 c6 2. Nc3 d5 3. d4 dxe4 4. f3 exf3 5. Nxf3 Nf6 6. Bc4 Bg4 7. Bxf7+ Kxf7 8.\nNe5+ Kg8 9. Nxg4 Nxg4 10. Qxg4 g6 11. O-O Bg7 12. Qe6# 1-0",
+    "movesSan" : [ "e4", "c6", "Nc3", "d5", "d4", "dxe4", "f3", "exf3", "Nxf3", "Nf6", "Bc4", "Bg4", "Bxf7+", "Kxf7", "Ne5+", "Kg8", "Nxg4", "Nxg4", "Qxg4", "g6", "O-O", "Bg7", "Qe6#" ],
+    "moveCount" : 23
+  },
+  "settings" : {
+    "mode" : "QUICK",
+    "stockfishPath" : "C:\\Users\\hp\\OneDrive\\Bureau\\stockfish\\stockfish-windows-x86-64-universal.exe",
+    "moveTimeLimitMs" : 15000,
+    "engineThreads" : 3,
+    "engineHashMb" : 256,
+    "depth" : 12
+  },
+  "moves" : [ {
+    "moveNumber" : 1,
+    "whiteToMove" : true,
+    "san" : "e4",
+    "uci" : "e2e4",
+    "fenBefore" : "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "fenAfter" : "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+    "evalBefore" : {
+      "centipawns" : 22,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 34,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "e4",
+    "bestMoveUci" : "e2e4",
+    "principalVariationSan" : "e4 c5 Nf3 d6 Nc3 Nf6",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 1,
+    "whiteToMove" : false,
+    "san" : "c6",
+    "uci" : "c7c6",
+    "fenBefore" : "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+    "fenAfter" : "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "evalBefore" : {
+      "centipawns" : 21,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 30,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "e5",
+    "bestMoveUci" : "e7e5",
+    "principalVariationSan" : "e5 Nf3 Nc6 d4",
+    "evalLossCentipawns" : 9.0,
+    "classification" : "EXCELLENT",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 2,
+    "whiteToMove" : true,
+    "san" : "Nc3",
+    "uci" : "b1c3",
+    "fenBefore" : "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "fenAfter" : "rnbqkbnr/pp1ppppp/2p5/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+    "evalBefore" : {
+      "centipawns" : 30,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 18,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "d4",
+    "bestMoveUci" : "d2d4",
+    "principalVariationSan" : "d4 d5 e5 Bf5 g4 Bd7",
+    "evalLossCentipawns" : 12.0,
+    "classification" : "EXCELLENT",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 2,
+    "whiteToMove" : false,
+    "san" : "d5",
+    "uci" : "d7d5",
+    "fenBefore" : "rnbqkbnr/pp1ppppp/2p5/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+    "fenAfter" : "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq d6 0 3",
+    "evalBefore" : {
+      "centipawns" : 18,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 20,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "d5",
+    "bestMoveUci" : "d7d5",
+    "principalVariationSan" : "d5 d4 dxe4 Nxe4 Nf6 Nxf6+",
+    "evalLossCentipawns" : 2.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 3,
+    "whiteToMove" : true,
+    "san" : "d4",
+    "uci" : "d2d4",
+    "fenBefore" : "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq d6 0 3",
+    "fenAfter" : "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq d3 0 3",
+    "evalBefore" : {
+      "centipawns" : 26,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 22,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Nf3",
+    "bestMoveUci" : "g1f3",
+    "principalVariationSan" : "Nf3 dxe4 Nxe4 Nf6 Qe2 Nxe4",
+    "evalLossCentipawns" : 4.0,
+    "classification" : "EXCELLENT",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 3,
+    "whiteToMove" : false,
+    "san" : "dxe4",
+    "uci" : "d5e4",
+    "fenBefore" : "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq d3 0 3",
+    "fenAfter" : "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+    "evalBefore" : {
+      "centipawns" : 22,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 22,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "dxe4",
+    "bestMoveUci" : "d5e4",
+    "principalVariationSan" : "dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 4,
+    "whiteToMove" : true,
+    "san" : "f3",
+    "uci" : "f2f3",
+    "fenBefore" : "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+    "fenAfter" : "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N2P2/PPP3PP/R1BQKBNR b KQkq - 0 4",
+    "evalBefore" : {
+      "centipawns" : 18,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : -56,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Nxe4",
+    "bestMoveUci" : "c3e4",
+    "principalVariationSan" : "Nxe4 Nf6 Nxf6+ exf6 Nf3 Bd6",
+    "evalLossCentipawns" : 74.0,
+    "classification" : "INACCURACY",
+    "comment" : "This move is playable, but a stronger continuation was available.",
+    "reasonCategory" : "Development",
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 4,
+    "whiteToMove" : false,
+    "san" : "exf3",
+    "uci" : "e4f3",
+    "fenBefore" : "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N2P2/PPP3PP/R1BQKBNR b KQkq - 0 4",
+    "fenAfter" : "rnbqkbnr/pp2pppp/2p5/8/3P4/2N2p2/PPP3PP/R1BQKBNR w KQkq - 0 5",
+    "evalBefore" : {
+      "centipawns" : -52,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : -49,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "exf3",
+    "bestMoveUci" : "e4f3",
+    "principalVariationSan" : "exf3 Nxf3 Nf6 Bd3 g6 h3",
+    "evalLossCentipawns" : 3.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 5,
+    "whiteToMove" : true,
+    "san" : "Nxf3",
+    "uci" : "g1f3",
+    "fenBefore" : "rnbqkbnr/pp2pppp/2p5/8/3P4/2N2p2/PPP3PP/R1BQKBNR w KQkq - 0 5",
+    "fenAfter" : "rnbqkbnr/pp2pppp/2p5/8/3P4/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 5",
+    "evalBefore" : {
+      "centipawns" : -50,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : -45,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Nxf3",
+    "bestMoveUci" : "g1f3",
+    "principalVariationSan" : "Nxf3 Nf6 h3 Bf5 Bd3 Bg6",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 5,
+    "whiteToMove" : false,
+    "san" : "Nf6",
+    "uci" : "g8f6",
+    "fenBefore" : "rnbqkbnr/pp2pppp/2p5/8/3P4/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 5",
+    "fenAfter" : "rnbqkb1r/pp2pppp/2p2n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+    "evalBefore" : {
+      "centipawns" : -48,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : -50,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Nf6",
+    "bestMoveUci" : "g8f6",
+    "principalVariationSan" : "Nf6 h3 Bf5 Bd3 Bxd3 Qxd3",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 6,
+    "whiteToMove" : true,
+    "san" : "Bc4",
+    "uci" : "f1c4",
+    "fenBefore" : "rnbqkb1r/pp2pppp/2p2n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+    "fenAfter" : "rnbqkb1r/pp2pppp/2p2n2/8/2BP4/2N2N2/PPP3PP/R1BQK2R b KQkq - 2 6",
+    "evalBefore" : {
+      "centipawns" : -54,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : -77,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Bd3",
+    "bestMoveUci" : "f1d3",
+    "principalVariationSan" : "Bd3 Bg4 Be3 e6 h3 Bh5",
+    "evalLossCentipawns" : 23.0,
+    "classification" : "GOOD",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 6,
+    "whiteToMove" : false,
+    "san" : "Bg4",
+    "uci" : "c8g4",
+    "fenBefore" : "rnbqkb1r/pp2pppp/2p2n2/8/2BP4/2N2N2/PPP3PP/R1BQK2R b KQkq - 2 6",
+    "fenAfter" : "rn1qkb1r/pp2pppp/2p2n2/8/2BP2b1/2N2N2/PPP3PP/R1BQK2R w KQkq - 3 7",
+    "evalBefore" : {
+      "centipawns" : -64,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 201,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Bf5",
+    "bestMoveUci" : "c8f5",
+    "principalVariationSan" : "Bf5 Ne5 e6 g4 Bg6 g5",
+    "evalLossCentipawns" : 265.0,
+    "classification" : "BLUNDER",
+    "comment" : "This move loses a significant part of the position's value, handing the opponent a much stronger position.",
+    "reasonCategory" : "Development",
+    "phase" : "OPENING",
+    "criticalMoment" : true
+  }, {
+    "moveNumber" : 7,
+    "whiteToMove" : true,
+    "san" : "Bxf7+",
+    "uci" : "c4f7",
+    "fenBefore" : "rn1qkb1r/pp2pppp/2p2n2/8/2BP2b1/2N2N2/PPP3PP/R1BQK2R w KQkq - 3 7",
+    "fenAfter" : "rn1qkb1r/pp2pBpp/2p2n2/8/3P2b1/2N2N2/PPP3PP/R1BQK2R b KQkq - 0 7",
+    "evalBefore" : {
+      "centipawns" : 190,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 167,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Ne5",
+    "bestMoveUci" : "f3e5",
+    "principalVariationSan" : "Ne5 Be6 Bxe6 fxe6 Bg5 Nbd7",
+    "evalLossCentipawns" : 23.0,
+    "classification" : "GOOD",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 7,
+    "whiteToMove" : false,
+    "san" : "Kxf7",
+    "uci" : "e8f7",
+    "fenBefore" : "rn1qkb1r/pp2pBpp/2p2n2/8/3P2b1/2N2N2/PPP3PP/R1BQK2R b KQkq - 0 7",
+    "fenAfter" : "rn1q1b1r/pp2pkpp/2p2n2/8/3P2b1/2N2N2/PPP3PP/R1BQK2R w KQ - 0 8",
+    "evalBefore" : {
+      "centipawns" : 200,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 192,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Kxf7",
+    "bestMoveUci" : "e8f7",
+    "principalVariationSan" : "Kxf7 Ne5+ Ke8 Nxg4 Nbd7 O-O",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 8,
+    "whiteToMove" : true,
+    "san" : "Ne5+",
+    "uci" : "f3e5",
+    "fenBefore" : "rn1q1b1r/pp2pkpp/2p2n2/8/3P2b1/2N2N2/PPP3PP/R1BQK2R w KQ - 0 8",
+    "fenAfter" : "rn1q1b1r/pp2pkpp/2p2n2/4N3/3P2b1/2N5/PPP3PP/R1BQK2R b KQ - 1 8",
+    "evalBefore" : {
+      "centipawns" : 203,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 203,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Ne5+",
+    "bestMoveUci" : "f3e5",
+    "principalVariationSan" : "Ne5+ Ke8 Nxg4 Nbd7 O-O g6",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 8,
+    "whiteToMove" : false,
+    "san" : "Kg8",
+    "uci" : "f7g8",
+    "fenBefore" : "rn1q1b1r/pp2pkpp/2p2n2/4N3/3P2b1/2N5/PPP3PP/R1BQK2R b KQ - 1 8",
+    "fenAfter" : "rn1q1bkr/pp2p1pp/2p2n2/4N3/3P2b1/2N5/PPP3PP/R1BQK2R w KQ - 2 9",
+    "evalBefore" : {
+      "centipawns" : 231,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 234,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Kg8",
+    "bestMoveUci" : "f7g8",
+    "principalVariationSan" : "Kg8 Nxg4 Nbd7 Qe2 h6 Ne5",
+    "evalLossCentipawns" : 3.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 9,
+    "whiteToMove" : true,
+    "san" : "Nxg4",
+    "uci" : "e5g4",
+    "fenBefore" : "rn1q1bkr/pp2p1pp/2p2n2/4N3/3P2b1/2N5/PPP3PP/R1BQK2R w KQ - 2 9",
+    "fenAfter" : "rn1q1bkr/pp2p1pp/2p2n2/8/3P2N1/2N5/PPP3PP/R1BQK2R b KQ - 0 9",
+    "evalBefore" : {
+      "centipawns" : 210,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 210,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Nxg4",
+    "bestMoveUci" : "e5g4",
+    "principalVariationSan" : "Nxg4 Nbd7 Qe2 h6 Ne5 Nxe5",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 9,
+    "whiteToMove" : false,
+    "san" : "Nxg4",
+    "uci" : "f6g4",
+    "fenBefore" : "rn1q1bkr/pp2p1pp/2p2n2/8/3P2N1/2N5/PPP3PP/R1BQK2R b KQ - 0 9",
+    "fenAfter" : "rn1q1bkr/pp2p1pp/2p5/8/3P2n1/2N5/PPP3PP/R1BQK2R w KQ - 0 10",
+    "evalBefore" : {
+      "centipawns" : 221,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 301,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Nbd7",
+    "bestMoveUci" : "b8d7",
+    "principalVariationSan" : "Nbd7 Qe2 h6 Ne5 Nxe5 dxe5",
+    "evalLossCentipawns" : 80.0,
+    "classification" : "INACCURACY",
+    "comment" : "This move is playable, but a stronger continuation was available.",
+    "reasonCategory" : "Development",
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 10,
+    "whiteToMove" : true,
+    "san" : "Qxg4",
+    "uci" : "d1g4",
+    "fenBefore" : "rn1q1bkr/pp2p1pp/2p5/8/3P2n1/2N5/PPP3PP/R1BQK2R w KQ - 0 10",
+    "fenAfter" : "rn1q1bkr/pp2p1pp/2p5/8/3P2Q1/2N5/PPP3PP/R1B1K2R b KQ - 0 10",
+    "evalBefore" : {
+      "centipawns" : 261,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 262,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Qxg4",
+    "bestMoveUci" : "d1g4",
+    "principalVariationSan" : "Qxg4 Qd6 Bf4 h5 Qf5 e6",
+    "evalLossCentipawns" : 0.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "OPENING",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 10,
+    "whiteToMove" : false,
+    "san" : "g6",
+    "uci" : "g7g6",
+    "fenBefore" : "rn1q1bkr/pp2p1pp/2p5/8/3P2Q1/2N5/PPP3PP/R1B1K2R b KQ - 0 10",
+    "fenAfter" : "rn1q1bkr/pp2p2p/2p3p1/8/3P2Q1/2N5/PPP3PP/R1B1K2R w KQ - 0 11",
+    "evalBefore" : {
+      "centipawns" : 254,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 638,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Qd6",
+    "bestMoveUci" : "d8d6",
+    "principalVariationSan" : "Qd6 Bf4 h5 Qf5 e6 Qe4",
+    "evalLossCentipawns" : 384.0,
+    "classification" : "BLUNDER",
+    "comment" : "This move loses a significant part of the position's value, handing the opponent a much stronger position.",
+    "reasonCategory" : "Development",
+    "phase" : "OPENING",
+    "criticalMoment" : true
+  }, {
+    "moveNumber" : 11,
+    "whiteToMove" : true,
+    "san" : "O-O",
+    "uci" : "e1g1",
+    "fenBefore" : "rn1q1bkr/pp2p2p/2p3p1/8/3P2Q1/2N5/PPP3PP/R1B1K2R w KQ - 0 11",
+    "fenAfter" : "rn1q1bkr/pp2p2p/2p3p1/8/3P2Q1/2N5/PPP3PP/R1B2RK1 b - - 1 11",
+    "evalBefore" : {
+      "centipawns" : 599,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 489,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Qe6+",
+    "bestMoveUci" : "g4e6",
+    "principalVariationSan" : "Qe6+ Kg7 O-O Qe8 d5 Nd7",
+    "evalLossCentipawns" : 110.0,
+    "classification" : "INACCURACY",
+    "comment" : "This move is playable, but a stronger continuation was available.",
+    "reasonCategory" : "Missed opportunity",
+    "phase" : "MIDDLEGAME",
+    "criticalMoment" : false
+  }, {
+    "moveNumber" : 11,
+    "whiteToMove" : false,
+    "san" : "Bg7",
+    "uci" : "f8g7",
+    "fenBefore" : "rn1q1bkr/pp2p2p/2p3p1/8/3P2Q1/2N5/PPP3PP/R1B2RK1 b - - 1 11",
+    "fenAfter" : "rn1q2kr/pp2p1bp/2p3p1/8/3P2Q1/2N5/PPP3PP/R1B2RK1 w - - 2 12",
+    "evalBefore" : {
+      "centipawns" : 492,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : null,
+      "mateIn" : 1,
+      "mate" : true
+    },
+    "bestMoveSan" : "Qd7",
+    "bestMoveUci" : "d8d7",
+    "principalVariationSan" : "Qd7 Qf3 Qf5 Qe2 Qd7 Bf4",
+    "evalLossCentipawns" : 9507.0,
+    "classification" : "BLUNDER",
+    "comment" : "This move loses a significant part of the position's value, allowing the opponent to win material or force a decisive sequence.",
+    "reasonCategory" : "Material loss",
+    "phase" : "MIDDLEGAME",
+    "criticalMoment" : true
+  }, {
+    "moveNumber" : 12,
+    "whiteToMove" : true,
+    "san" : "Qe6#",
+    "uci" : "g4e6",
+    "fenBefore" : "rn1q2kr/pp2p1bp/2p3p1/8/3P2Q1/2N5/PPP3PP/R1B2RK1 w - - 2 12",
+    "fenAfter" : "rn1q2kr/pp2p1bp/2p1Q1p1/8/3P4/2N5/PPP3PP/R1B2RK1 b - - 3 12",
+    "evalBefore" : {
+      "centipawns" : null,
+      "mateIn" : 1,
+      "mate" : true
+    },
+    "evalAfter" : {
+      "centipawns" : null,
+      "mateIn" : 0,
+      "mate" : true
+    },
+    "bestMoveSan" : "Qe6#",
+    "bestMoveUci" : "g4e6",
+    "principalVariationSan" : "Qe6#",
+    "evalLossCentipawns" : 19999.0,
+    "classification" : "BEST",
+    "comment" : null,
+    "reasonCategory" : null,
+    "phase" : "MIDDLEGAME",
+    "criticalMoment" : false
+  } ],
+  "criticalMoments" : [ {
+    "moveLabel" : "6...Bg4",
+    "playedSan" : "Bg4",
+    "classification" : "BLUNDER",
+    "evalBefore" : {
+      "centipawns" : -64,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 201,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Bf5",
+    "principalVariationSan" : "Bf5 Ne5 e6 g4 Bg6 g5",
+    "comment" : "This move loses a significant part of the position's value, handing the opponent a much stronger position.",
+    "reasonCategory" : "Development"
+  }, {
+    "moveLabel" : "10...g6",
+    "playedSan" : "g6",
+    "classification" : "BLUNDER",
+    "evalBefore" : {
+      "centipawns" : 254,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : 638,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "bestMoveSan" : "Qd6",
+    "principalVariationSan" : "Qd6 Bf4 h5 Qf5 e6 Qe4",
+    "comment" : "This move loses a significant part of the position's value, handing the opponent a much stronger position.",
+    "reasonCategory" : "Development"
+  }, {
+    "moveLabel" : "11...Bg7",
+    "playedSan" : "Bg7",
+    "classification" : "BLUNDER",
+    "evalBefore" : {
+      "centipawns" : 492,
+      "mateIn" : null,
+      "mate" : false
+    },
+    "evalAfter" : {
+      "centipawns" : null,
+      "mateIn" : 1,
+      "mate" : true
+    },
+    "bestMoveSan" : "Qd7",
+    "principalVariationSan" : "Qd7 Qf3 Qf5 Qe2 Qd7 Bf4",
+    "comment" : "This move loses a significant part of the position's value, allowing the opponent to win material or force a decisive sequence.",
+    "reasonCategory" : "Material loss"
+  } ],
+  "phaseStats" : [ {
+    "phase" : "OPENING",
+    "whiteAccuracy" : 94.60386351431231,
+    "blackAccuracy" : 78.55242002544335,
+    "plyCount" : 20,
+    "present" : true
+  }, {
+    "phase" : "MIDDLEGAME",
+    "whiteAccuracy" : 21.627795333211125,
+    "blackAccuracy" : 59.11961104463728,
+    "plyCount" : 3,
+    "present" : true
+  }, {
+    "phase" : "ENDGAME",
+    "whiteAccuracy" : 0.0,
+    "blackAccuracy" : 0.0,
+    "plyCount" : 0,
+    "present" : false
+  } ],
+  "whiteAccuracy" : 48.38657174583625,
+  "blackAccuracy" : 76.66085168173916,
+  "moveStatistics" : {
+    "whiteCounts" : {
+      "BEST" : 6,
+      "EXCELLENT" : 2,
+      "GOOD" : 2,
+      "INACCURACY" : 2,
+      "MISTAKE" : 0,
+      "BLUNDER" : 0
+    },
+    "blackCounts" : {
+      "BEST" : 6,
+      "EXCELLENT" : 1,
+      "GOOD" : 0,
+      "INACCURACY" : 1,
+      "MISTAKE" : 0,
+      "BLUNDER" : 3
+    }
+  },
+  "finalReport" : {
+    "openingEvaluationSummary" : "White has a decisive advantage",
+    "middlegameEvaluationSummary" : "Black has a forced mate",
+    "criticalMomentSummary" : "Move 12",
+    "postCriticalMomentSummary" : "Black has a forced mate",
+    "finalEvaluationSummary" : "Black has a forced mate",
+    "strongPoints" : [ "Good opening development" ],
+    "weakPoints" : [ "Missed tactical opportunities leading to blunders" ],
+    "recommendations" : [ "Check forcing moves (captures, checks, threats) before committing to a move.", "Improve calculation depth in complex middlegame positions." ],
+    "finalAssessment" : "The game was accurate in the opening. The main turning point occurred around 6...Bg4, where a blunder significantly changed the evaluation. Black played the more accurate game overall, with an accuracy of 76,7% against 48,4%."
+  }
+}

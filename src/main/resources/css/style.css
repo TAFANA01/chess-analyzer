@@ -1,0 +1,77 @@
+.screen-root {
+    -fx-background-color: #1e222a;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.app-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f2f4f8;
+}
+
+.app-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #9aa4b2;
+}
+
+.section-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b7c0cc;
+}
+
+.status-label {
+    -fx-text-fill: #e2b93b;
+}
+
+.card {
+    -fx-background-color: #262b35;
+    -fx-background-radius: 8;
+    -fx-padding: 14;
+}
+
+.primary-button {
+    -fx-background-color: #3d7dfc;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 24 10 24;
+    -fx-background-radius: 6;
+}
+
+.primary-button:hover {
+    -fx-background-color: #578bff;
+}
+
+.report-toolbar {
+    -fx-background-color: #262b35;
+}
+
+.report-heading {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-padding: 10 0 4 0;
+}
+
+Label {
+    -fx-text-fill: #000000;
+}
+
+.critical-moment-blunder {
+    -fx-border-color: #d64545;
+    -fx-border-width: 0 0 0 3;
+    -fx-padding: 4 0 4 10;
+}
+
+.critical-moment-mistake {
+    -fx-border-color: #e2a53b;
+    -fx-border-width: 0 0 0 3;
+    -fx-padding: 4 0 4 10;
+}
+
+.critical-moment-inaccuracy {
+    -fx-border-color: #d6c545;
+    -fx-border-width: 0 0 0 3;
+    -fx-padding: 4 0 4 10;
+}

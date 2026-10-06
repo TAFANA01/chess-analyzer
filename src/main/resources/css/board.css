@@ -1,0 +1,95 @@
+/* ===== Analysis board screen (extends style.css; dark theme) ===== */
+
+.board-view {
+    -fx-base: #2b303b;
+    -fx-control-inner-background: #262b35;
+    -fx-accent: #3d7dfc;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.board-view .label { -fx-text-fill: #e6e9ef; }
+.board-view .muted { -fx-text-fill: #9aa4b2; }
+
+.board-title { -fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #f2f4f8; }
+.board-caption { -fx-text-fill: #c9d1de; -fx-font-size: 12.5px; }
+
+.panel-title { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #9aa4b2; -fx-letter-spacing: 1; }
+.value-strong { -fx-font-weight: bold; -fx-text-fill: #f2f4f8; }
+
+/* Evaluation */
+.eval-value { -fx-font-size: 30px; -fx-font-weight: bold; }
+.eval-white { -fx-text-fill: #f2f2f2; }
+.eval-black { -fx-text-fill: #b9a6a0; }
+.eval-equal { -fx-text-fill: #d9dee8; }
+
+/* Move information card: coloured left stripe by classification */
+.move-info { -fx-border-width: 0 0 0 4; -fx-border-color: #3a4150; -fx-background-radius: 6; -fx-border-radius: 6; }
+.move-info.cls-brilliant  { -fx-border-color: #1baca6; }
+.move-info.cls-best       { -fx-border-color: #81b64c; }
+.move-info.cls-excellent  { -fx-border-color: #95b776; }
+.move-info.cls-good       { -fx-border-color: #a0a8b5; }
+.move-info.cls-inaccuracy { -fx-border-color: #f7c631; }
+.move-info.cls-mistake    { -fx-border-color: #e58f2a; }
+.move-info.cls-blunder    { -fx-border-color: #ca3431; -fx-background-color: #3a2427; }
+
+.class-headline { -fx-font-size: 20px; -fx-font-weight: bold; }
+.board-view .class-headline.cls-brilliant  { -fx-text-fill: #1baca6; }
+.board-view .class-headline.cls-best       { -fx-text-fill: #81b64c; }
+.board-view .class-headline.cls-excellent  { -fx-text-fill: #95b776; }
+.board-view .class-headline.cls-good       { -fx-text-fill: #a0a8b5; }
+.board-view .class-headline.cls-inaccuracy { -fx-text-fill: #f7c631; }
+.board-view .class-headline.cls-mistake    { -fx-text-fill: #e58f2a; }
+.board-view .class-headline.cls-blunder    { -fx-text-fill: #ff5a54; -fx-font-size: 22px; }
+
+.move-box { -fx-background-radius: 5; -fx-background-color: #1f232b; -fx-border-width: 0 0 0 3; }
+.move-box.cls-best       { -fx-border-color: #81b64c; }
+.move-box.cls-inaccuracy { -fx-border-color: #f7c631; }
+.move-box.cls-mistake    { -fx-border-color: #e58f2a; }
+.move-box.cls-blunder    { -fx-border-color: #ca3431; }
+.move-box-caption { -fx-font-size: 10px; -fx-font-weight: bold; -fx-text-fill: #9aa4b2; }
+.move-box-move { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #f2f4f8; }
+
+.pv-text { -fx-font-family: "Consolas", "DejaVu Sans Mono", monospace; -fx-text-fill: #cfd6e4; }
+.comment-text { -fx-text-fill: #c9d1de; -fx-font-style: italic; }
+
+.game-over { -fx-background-color: #1f232b; -fx-background-radius: 5; -fx-padding: 8 10 8 10; }
+.game-over-title { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #e2b93b; }
+.game-over-result { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #f2f4f8; }
+
+/* Move list */
+.move-list { -fx-background-color: #262b35; -fx-background-radius: 6; -fx-padding: 4; }
+.move-list .list-cell { -fx-background-color: transparent; -fx-padding: 1 0 1 0; }
+.move-list .list-cell:empty { -fx-background-color: transparent; }
+.move-number { -fx-text-fill: #7c8697; -fx-font-size: 12px; }
+.move-cell { -fx-padding: 3 8 3 8; -fx-background-radius: 4; -fx-cursor: hand; }
+.move-cell:hover { -fx-background-color: #343b49; }
+.move-san { -fx-font-weight: bold; -fx-font-size: 13.5px; }
+.move-marker { -fx-font-size: 11px; -fx-font-weight: bold; }
+.board-view .move-marker.cls-brilliant  { -fx-text-fill: #1baca6; }
+.board-view .move-marker.cls-best       { -fx-text-fill: #81b64c; }
+.board-view .move-marker.cls-excellent  { -fx-text-fill: #95b776; }
+.board-view .move-marker.cls-good       { -fx-text-fill: #7f8896; }
+.board-view .move-marker.cls-inaccuracy { -fx-text-fill: #f7c631; }
+.board-view .move-marker.cls-mistake    { -fx-text-fill: #e58f2a; }
+.board-view .move-marker.cls-blunder    { -fx-text-fill: #ff5a54; }
+.move-cell.cls-inaccuracy { -fx-background-color: rgba(247,198,49,0.10); }
+.move-cell.cls-mistake    { -fx-background-color: rgba(229,143,42,0.14); }
+.move-cell.cls-blunder    { -fx-background-color: rgba(202,52,49,0.22); }
+.move-cell.selected-move, .move-cell.cls-inaccuracy.selected-move, .move-cell.cls-mistake.selected-move,
+.move-cell.cls-blunder.selected-move { -fx-background-color: #3d7dfc; }
+.move-cell.selected-move .move-san, .move-cell.selected-move .move-marker { -fx-text-fill: white; }
+
+/* Navigation */
+.nav-button { -fx-font-size: 14px; -fx-padding: 6 14 6 14; -fx-background-radius: 5; }
+.play-button { -fx-min-width: 96; -fx-font-weight: bold; -fx-background-color: #3d7dfc; -fx-text-fill: white; }
+.play-button:hover { -fx-background-color: #578bff; }
+.play-button:disabled { -fx-opacity: 0.5; }
+.move-counter { -fx-font-weight: bold; -fx-font-size: 14px; }
+
+.chess-board { -fx-background-color: transparent; }
+.eval-graph { -fx-background-radius: 4; -fx-cursor: hand; }
+
+/* Toggle buttons in the header: make the pressed state obvious */
+.board-view .toggle-button:selected { -fx-background-color: #3d7dfc; -fx-text-fill: white; }
+.board-view .toggle-button:selected:hover { -fx-background-color: #578bff; }
